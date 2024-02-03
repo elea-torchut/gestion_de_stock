@@ -1,0 +1,10 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+    # Informations de connexion à la base de données
+    host="localhost",
+    user='root',
+    password='root',
+    database='store',
+)
+
